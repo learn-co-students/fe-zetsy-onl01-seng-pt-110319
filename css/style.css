@@ -3,9 +3,13 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
 
 body {
-	background: #F3EBE9;
+	background: rgb(242, 232, 230);
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
 }
@@ -18,3 +22,41 @@ body {
 }
 
 /* Write all remaining styles here */
+hr {
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 3em;
+	color: rgb(148, 165, 160);
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 0;
+}
+
+img#necklace {
+	margin-top: 5px;
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+	font-family: serif;
+    color: rgb(111,127,122);	font-weight: bold;
+	font-size: 2em;
+
+}
+
+a > img {
+	border: 5px #ccc solid;
+    padding: 1px;
+}
+
+img.press:hover {
+	border: 5px rgb(99,116,111) solid;
+}
+
+footer p {
+	font-size: .8em;
+	text-align: right;
+}

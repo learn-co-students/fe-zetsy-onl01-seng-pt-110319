@@ -3,6 +3,10 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
 	background: #F3EBE9;
@@ -15,6 +19,49 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+
+h1 {
+	font-size: 6em;
+	margin: 0 0 6px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #ccc;
+}
+
+a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+a:hover {
+	color:rgb(111,127,122);
+}
+
+main img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+	color:rgb(111,127,122);
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+	font-size: 1em;
+}
+
+section img {
+	border: 5px #ccc solid;
+}
+
+section img:hover {
+	border: 5px rgb(152,173,166) solid;
+}
+
+footer {
+	float: right;
+	font-size: small;
 }
 
 /* Write all remaining styles here */

@@ -15,6 +15,45 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	display: block;
+	margin: 0 auto;
 }
+
+.head h1 {
+	padding-top: 0.5em;
+	color: rgb(152,173,166);
+	font-size: 5em;
+}
+
+#featured {
+	border-top: solid gray 1px;
+}
+
+#featured img {
+	margin-top: 0.5em;
+	border: solid rgb(152,173,166) 5px;
+}
+
+#featured h2 {
+	font-size: 2em;
+	color: rgb(152,173,166);
+}
+
+#press h2 {
+	font-size: 2em;
+	color: rgb(152,173,166);
+}
+
+#press img {
+	border: solid #ccc 5px;
+	padding: 1px;
+	margin-bottom: 3em;
+}
+
+#press img:hover {
+	border: solid rgb(152,173,166) 5px;
+}
+
+
 
 /* Write all remaining styles here */
